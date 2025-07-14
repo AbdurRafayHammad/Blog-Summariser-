@@ -1,25 +1,36 @@
-# Blog-Summariser-
-Blog_summariser
-Blog_summariser is a full-stack web application that scrapes blog content from websites and summarizes it using AI models like OpenAI and Google's Generative AI. It is built with Next.js, TailwindCSS, Supabase, and other modern tools to deliver fast and intelligent summarization of online content.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Features
-AI-powered blog summarization using OpenAI and Google GenAI
+## Getting Started
 
-Blog scraping with Puppeteer and Cheerio
+First, run the development server:
 
-Clean and responsive UI with TailwindCSS
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-MongoDB/Mongoose integration for database support
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Supabase for authentication and backend services
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Built using Next.js 15 with Turbopack
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Tech Stack
-Frontend: Next.js 15, React 19, TailwindCSS, Radix UI
+## Learn More
 
-Backend: Puppeteer, OpenAI, Google GenAI, Axios, MongoDB/Mongoose
+To learn more about Next.js, take a look at the following resources:
 
-Database/Auth: Supabase
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Utilities: Cheerio, clsx, tailwind-merge, ESLint, TypeScript
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
